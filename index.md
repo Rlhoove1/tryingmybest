@@ -18,15 +18,17 @@ Key Applications of ccAFv2:
 If you include or rely on ccAF2 when publishing research, please adhere to the following citation guide:
 
 1. Citation for ccAFv2 (version 2):
+
 Classifying cell cycle states and a quiescent-like G0 state using single-cell transcriptomics Samantha A. O’Connor, Leonor Garcia, Anoop P. Patel, Benjamin B. Bartelle, Jean-Philippe Hugnot, Patrick J. Paddison, Christopher L. Plaisier. bioRxiv [Preprint]. 2024 Apr 20:2024.04.16.589816. doi: 10.1101/2024.04.16.589816. PMID: 38659838
 
 2. Citation for ccAF (version 1):
+
 Neural G0: a quiescent-like state found in neuroepithelial-derived cells and glioma. Samantha A. O'Connor, Heather M. Feldman, Chad M. Toledo, Sonali Arora, Pia Hoellerbauer, Philip Corrin, Lucas Carter, Megan Kufeld, Hamid Bolouri, Ryan Basom, Jeffrey Delrow, Jose L. McFaline-Figueroa, Cole Trapnell, Steven M. Pollard, Anoop Patel, Patrick J. Paddison, Christopher L. Plaisier. Mol Syst Biol. 2021 Jun;17(6):e9522. doi: 10.15252/msb.20209522. PMID: 34101353
 
 {: .Key Contributors-title }
 >**Key Contributors**
 >
->Samantha A. O‘Connor developer since 1999, Christopher L. Plaisier developer since 1999, maintianer 
+>Samantha A. O‘Connor developer since 1999, Christopher L. Plaisier developer since 1999, maintainer 
 > 
 > For other great packages from the Plaisier Lab, please check [here](https://github.com/plaisier-lab). 
 
