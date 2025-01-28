@@ -13,7 +13,7 @@ highly variable genes. This can exclude genes needed for the accurate
 classification of the cell cycle. To address this, the PredictCellCycle
 function re-runs SCTransform to retain all genes in the dataset
 
-# Test Data
+## Test Data
 
 The U5 human neural stem cell (hNSC) dataset used to train the ccAFv2 is
 available for testing purposes
@@ -28,12 +28,11 @@ library(Seurat)
 library(reticulate)
 reticulate::use_virtualenv('retic')
 library(tensorflow)
-```
-
-```
+#Load in sample data
 seurat_obj = readRDS('U5_normalized_ensembl.rds')
 seurat_obj = PredictCellCycle(seurat_obj)
 ```
+## Marker genes
 Examining marker genes is crucial for accuracy. Predictions
 significantly worsen if fewer than 689 marker genes (80%) are present.
 Setting do_sctransform = TRUE maximizes marker gene overlap. Timing and
@@ -50,6 +49,20 @@ PredictCellCycle(seurat_obj,
                  spatial = FALSE)
 
 ```
+Standard output  
+```
+Running ccAFv2:
+  Redoing SCTransform to ensure maximum overlap with classifier genes...
+  Total possible marker genes for this classifier: 861
+    Marker genes present in this dataset: 861
+    Missing marker genes in this dataset: 0
+  Predicting cell cycle state probabilities...
+93/93 [==============================] - 1s 4ms/step
+  Choosing cell cycle state...
+  Adding probabilities and predictions to metadata
+Done
+```
+
 # Cell cycle classification results
 
 The results of the cell cycle classification are stored in the Seurat
@@ -60,8 +73,10 @@ can be found in 'ccAFv2'.
 
 Note that when 'include_g0 = FALSE' there will still be a calculated likelihood for 'Neural.G0', however none of the predictions in the 'ccAFv2' column will be 'G0'. 
 ```
-head(seurat_obj@meta.data)
+#check to ensure 'ccAFv2' colum exists
+colnames(seurat_obj@meta.data)
 ```
+
 # Plotting cell cycle states
 Plot a UMAP with cell cycle states
 ```
@@ -76,3 +91,4 @@ For this dataset a likelihood threshold of ≥ 0.5 because it signifies a minimu
 ```
 ThresholdPlot(seurat_obj)
 ```
+![ThresholdPlot_1]({{ site.baseurl }}/images/ThresholdPlot_1.jpeg)
