@@ -16,7 +16,7 @@ Key Applications of ccAFv2:
 
 # Maintainers
 For issues or comments, please contact: Chris Plaisier
-For other great packages from the Plaisier Lab, please check here: @plaisier-lab. 
+For other great packages from the Plaisier Lab, please check [here](https://github.com/plaisier-lab). 
 
 # Citing ccAFv2
 If you include or rely on ccAF2 when publishing research, please adhere to the following citation guide:
@@ -27,7 +27,10 @@ Classifying cell cycle states and a quiescent-like G0 state using single-cell tr
 2. Citation for ccAF (version 1):
 Neural G0: a quiescent-like state found in neuroepithelial-derived cells and glioma. Samantha A. O'Connor, Heather M. Feldman, Chad M. Toledo, Sonali Arora, Pia Hoellerbauer, Philip Corrin, Lucas Carter, Megan Kufeld, Hamid Bolouri, Ryan Basom, Jeffrey Delrow, Jose L. McFaline-Figueroa, Cole Trapnell, Steven M. Pollard, Anoop Patel, Patrick J. Paddison, Christopher L. Plaisier. Mol Syst Biol. 2021 Jun;17(6):e9522. doi: 10.15252/msb.20209522. PMID: 34101353
 
+{: .Maintainers-title }
+> For issues or comments, please contact: Chris Plaisier
+>
+> For other great packages from the Plaisier Lab, please check here: @plaisier-lab. 
+
 # Support 
 Found a bug or would like to see a feature implemented? Feel free to submit an [issue](https://github.com/plaisier-lab/ccAFv2_R/issues/new). Your help to improve ccAF is highly appreciated. 
-
-----
