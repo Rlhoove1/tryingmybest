@@ -67,7 +67,7 @@ Plot a UMAP with cell cycle states
 ```
 DimPlot.ccAFv2(seurat_obj)
 ```
-![Dimplot_1]({{ site.baseurl }}/images/Dimplot_1.jpeg)
+![Dimplot_1]({{ site.baseurl }}/images/DimPlot_1.jpeg)
 
 # Plotting the impact of varying likelihood thresholds
 Cell cycle state likelihoods must meet or exceed the threshold; otherwise, cells are classified as “Unknown.” The removal of less certain classifications improves the accuracy of the overall classifications. 
