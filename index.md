@@ -33,6 +33,7 @@ Neural G0: a quiescent-like state found in neuroepithelial-derived cells and gli
 >This website was developed by Rori Hoover and the Plaisier Lab using [Just the Docs](https://github.com/just-the-docs/just-the-docs).
 >
 > For other great packages from the Plaisier Lab, please check [here](https://github.com/plaisier-lab).
+
 # Support 
 Found a bug or would like to see a feature implemented? Feel free to submit an [issue](https://github.com/plaisier-lab/ccAFv2_R/issues/new). Your help to improve ccAF is highly appreciated. 
 
