@@ -4,7 +4,7 @@ title: Classifying single cell or nuclei RNA-seq
 nav_order: 3
 
 ---
-# Input for classification
+# Input For Classification
 The ccAFv2 classifier requires a thoroughly quality-controlled Seurat
 object, with an example QC pipeline used on the U5 human neural stem cell (hNSC) dataset is available
 [here](https://github.com/plaisier-lab/FIXLINK).
@@ -32,7 +32,7 @@ library(tensorflow)
 seurat_obj = readRDS('U5_normalized_ensembl.rds')
 seurat_obj = PredictCellCycle(seurat_obj)
 ```
-## Marker genes
+## Marker Genes
 Examining marker genes is crucial for accuracy. Predictions
 significantly worsen if fewer than 689 marker genes (80%) are present.
 Setting do_sctransform = TRUE maximizes marker gene overlap. Timing and
@@ -49,7 +49,7 @@ PredictCellCycle(seurat_obj,
                  spatial = FALSE)
 
 ```
-Standard output  
+Standard output:  
 ```
 Running ccAFv2:
   Redoing SCTransform to ensure maximum overlap with classifier genes...
@@ -63,7 +63,7 @@ Running ccAFv2:
 Done
 ```
 
-# Cell cycle classification results
+# Cell Cycle Classification Results
 
 The results of the cell cycle classification are stored in the Seurat
 object metadata. The likelihoods for each cell cycle state can be found
@@ -77,14 +77,14 @@ Note that when 'include_g0 = FALSE' there will still be a calculated likelihood 
 colnames(seurat_obj@meta.data)
 ```
 
-# Plotting cell cycle states
+# Plotting Cell Cycle States
 Plot a UMAP with cell cycle states
 ```
 DimPlot.ccAFv2(seurat_obj)
 ```
 ![Dimplot_1]({{ site.baseurl }}/images/DimPlot_1.jpeg)
 
-# Plotting the impact of varying likelihood thresholds
+# Plotting the Impact of Varying Likelihood Thresholds
 Cell cycle state likelihoods must meet or exceed the threshold; otherwise, cells are classified as “Unknown.” The removal of less certain classifications improves the accuracy of the overall classifications. 
 For this dataset a likelihood threshold of ≥ 0.5 because it signifies a minimum of 50% certainty in the classified cell cycle state and >90% of cells could be assigned a cell cycle state. Users can adjust the threshold to suit specific datasets.
 
