@@ -6,12 +6,13 @@ nav_order: 3
 ---
 # Input For Classification
 The ccAFv2 classifier requires a thoroughly quality-controlled Seurat
-object, with an example QC pipeline used on the U5 human neural stem cell (hNSC) dataset is available
-[here](https://github.com/plaisier-lab/FIXLINK).
-SCTransform is preferred, standard normalization only applies to the
+object. SCTransform is preferred, standard normalization only applies to the
 highly variable genes. This can exclude genes needed for the accurate
-classification of the cell cycle. To address this, the PredictCellCycle
-function re-runs SCTransform to retain all genes in the dataset
+classification of the cell cycle. The PredictCellCycle
+function re-runs SCTransform to retain all genes in the dataset. 
+
+An example QC pipeline used on the U5 human neural stem cell (hNSC) dataset is available
+[here](https://github.com/plaisier-lab/FIXLINK).
 
 ## Test Data
 
