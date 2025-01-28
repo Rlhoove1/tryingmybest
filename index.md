@@ -1,9 +1,33 @@
 ---
-title: About
+title: About ccAFv2
 nav_order: 1
 layout: home
 ---
-This repository is for the R package for the cell cycle classifier ccAFv2. The input for the ccAFv2 classifier is single cell, nuclei, or spatial RNA-seq data. The features of this classifier are that it classifies six cell cycle states (G1, Late G1, S, S/G2, G2/M, and M/Early G1) and a quiescent-like G0 state, and it incorporates a tunable parameter to filter out less certain classifications. This package is implemented in R for use in Seurat analysis workflows. We provide examples of installing and running ccAFv2 on Seurat objects (both sc/snRNA-seq and ST-RNA-seq), plot and use results, and regress out cell cycle effects if desired.
+# About ccAFv2
 
+**ccAFv2** is a high-resolution classifier for cell cycle state identification in single-cell RNA-seq (scRNA-seq) data. It was trained on human neural stem cells and classifies six distinct cell cycle states (G1, Late G1, S, S/G2, G2/M, and M/Early G1) along with a quiescent-like G0 state (qG0). ccAFv2 incorporates a tunable parameter to refine classification certainty and outperforms other state-of-the-art methods while supporting additional cell cycle states, including G0.
+
+Key Applications of ccAFv2:
+- Identify fine-grained cell cycle states in diverse cell types and germ layers.
+- Classify cells, nuclei, and spatial transcriptomics data across species.
+- Apply to various normalization methods and gene identifiers.
+- Regress cell cycle expression patterns to reveal biological signals.
+- Use as an R package (Seurat integration) or PyPI package (scanpy integration).
+
+# Maintainers
+For issues or comments, please contact: Chris Plaisier
+For other great packages from the Plaisier Lab, please check here: @plaisier-lab. 
+
+# Citing ccAFv2
+If you include or rely on ccAF2 when publishing research, please adhere to the following citation guide:
+
+1. Citation for ccAFv2 (version 2):
+Classifying cell cycle states and a quiescent-like G0 state using single-cell transcriptomics Samantha A. O’Connor, Leonor Garcia, Anoop P. Patel, Benjamin B. Bartelle, Jean-Philippe Hugnot, Patrick J. Paddison, Christopher L. Plaisier. bioRxiv [Preprint]. 2024 Apr 20:2024.04.16.589816. doi: 10.1101/2024.04.16.589816. PMID: 38659838
+
+2. Citation for ccAF (version 1):
+Neural G0: a quiescent-like state found in neuroepithelial-derived cells and glioma. Samantha A. O'Connor, Heather M. Feldman, Chad M. Toledo, Sonali Arora, Pia Hoellerbauer, Philip Corrin, Lucas Carter, Megan Kufeld, Hamid Bolouri, Ryan Basom, Jeffrey Delrow, Jose L. McFaline-Figueroa, Cole Trapnell, Steven M. Pollard, Anoop Patel, Patrick J. Paddison, Christopher L. Plaisier. Mol Syst Biol. 2021 Jun;17(6):e9522. doi: 10.15252/msb.20209522. PMID: 34101353
+
+# Support 
+Found a bug or would like to see a feature implemented? Feel free to submit an [issue](https://github.com/plaisier-lab/ccAFv2_R/issues/new). Your help to improve ccAF is highly appreciated. 
 
 ----
