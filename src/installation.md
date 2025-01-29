@@ -1,0 +1,44 @@
+---
+layout: default
+title: Installation
+nav_order: 7
+---
+
+It is strongly suggested that users utilize the Docker images we provide on DockerHub, as they contain all the dependencies needed to run ccAFv2
+Installing ccAFv2
+NOTE: The Docker images already have ccAFv2 installed, so both of these commands are unnecessary if you use them.
+
+Once the dependencies are met, ccAFv2 can be installed in R using the devtools package, which must be installed first. The devtools package can be installed using the command:
+```
+install.packages('devtools')
+#Once the devtools package is installed, it can then be used to install the ccAFv2 R package from this GitHub repository using the following command:
+devtools::install_github('plaisier-lab/ccafv2_R/ccAFv2')
+```
+# System Dependencies
+Tensorflow/Keras version 2 must be installed - install link
+R dependencies:
+Seurat 4 or 5 - install link
+keras - install link
+
+# Dockerfile
+
+Seurat 4.X version *Link to DockerHub image: [cplaisier/ccafv2_seurat4](https://hub.docker.com/r/cplaisier/ccafv2_seurat4)*
+```
+#Command to pull the image down:
+docker pull cplaisier/ccafv2_seurat4
+```
+Note that the should be replaced with the path to your files that you want to be mounted onto the docker instance. The files can then be found in /files on the instance and locally on your computer in the path specified.
+
+```
+docker run -it -v '<replace with the location for your files>:/files' cplaisier/ccafv2_seurat4
+```
+Seurat 5.X version *Link to DockerHub image: [cplaisier/ccafv2_seurat4](https://hub.docker.com/r/cplaisier/ccafv2_seurat5)*
+```
+#Command to pull the image down:
+docker pull cplaisier/ccafv2_seurat5
+```
+Command to run the docker image. Note that the should be replaced with the path to your files that you want to be mounted onto the docker instance. The files can then be found in /files on the instance and locally on your computer in the path specified.
+```
+docker run -it -v '<replace with the location for your files>:/files' cplaisier/ccafv2_seurat5
+```
+
