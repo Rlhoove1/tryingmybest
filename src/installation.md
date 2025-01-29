@@ -3,7 +3,7 @@ layout: default
 title: Installation
 nav_order: 7
 ---
-
+#  Installation
 It is strongly suggested that users utilize the Docker images we provide on DockerHub, as they contain all the dependencies needed to run ccAFv2
 Installing ccAFv2
 NOTE: The Docker images already have ccAFv2 installed, so both of these commands are unnecessary if you use them.
