@@ -94,7 +94,7 @@ ThresholdPlot(seurat_obj)
 ```
 ![ThresholdPlot_1]({{ site.baseurl }}/images/ThresholdPlot_1.jpeg)
 
-# Cell cycle regression
+# Cell cycle Regression
 The cell cycle strongly influences gene expression, so it's common to
 regress out cell cycle effects and use residual variance for further
 analysis. We support this using ccAFv2 marker genes, starting by
