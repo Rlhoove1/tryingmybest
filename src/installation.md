@@ -6,12 +6,15 @@ nav_order: 7
 #  Installation
 It is strongly suggested that users utilize the Docker images we provide on DockerHub, as they contain all the dependencies needed to run ccAFv2
 Installing ccAFv2
+Contact the authors if you want to use an anconda virtual envrionment on your local machine to avoid dependency issues. 
+
 NOTE: The Docker images already have ccAFv2 installed, so both of these commands are unnecessary if you use them.
 
 Once the dependencies are met, ccAFv2 can be installed in R using the devtools package, which must be installed first. The devtools package can be installed using the command:
 ```
 install.packages('devtools')
-#Once the devtools package is installed, it can then be used to install the ccAFv2 R package from this GitHub repository using the following command:
+#Once the devtools package is installed, it can then be used to install the ccAFv2 R package
+#from this GitHub repository using the following command:
 devtools::install_github('plaisier-lab/ccafv2_R/ccAFv2')
 ```
 # System Dependencies
