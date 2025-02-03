@@ -47,3 +47,5 @@ SpatialDimPlot.ccAFv2(spatial_obj) + theme(legend.position = "right")
 
 SpatialDimPlot for slice 1 of a human fetus at 4 weeks post-conception
 colorized using the cell cycle states.
+
+![ccAFv2_SpatialDimPlot_slice1]({{ site.baseurl }}/images/ccAFv2_SpatialDimPlot_slice1.png)
