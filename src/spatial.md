@@ -4,7 +4,7 @@ title: Classifying spatial RNA-seq
 nav_order: 4
 
 ---
-# Input for classification
+# Input for Classification
 
 The ccAFv2 classifier requires a thoroughly quality-controlled Seurat
 object, with an example QC pipeline available
@@ -14,7 +14,7 @@ highly variable genes. This can exclude genes needed for the accurate
 classification of the cell cycle. To address this, the PredictCellCycle
 function re-runs SCTransform to retain all genes in the dataset
 
-# Test spatial data
+# Test Spatial Data
 
 A slice of a human fetus 4 weeks post conception from Zeng et al., 2023
 is available for testing purposes
@@ -31,7 +31,7 @@ spatial_obj = readRDS('GSM6736780_Spatial_10x_PCW4_20220122_slice1.rds')
 spatial_obj = PredictCellCycle(spatial_obj, species='human', gene_id='symbol', spatial=TRUE)
 ```
 
-# Plotting cell cycle states onto images
+# Plotting Cell Cycle States Onto Images
 
 To represent spatial RNA-seq data, cell cycle states are often mapped
 onto tissue slice images taken before sequencing. We use an enhanced
