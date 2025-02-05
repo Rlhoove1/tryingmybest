@@ -22,7 +22,7 @@ is available for testing purposes
 This data has been QC'd and normalized using SCTransform, following our
 best practices described above.
 
-# Cell cycle classification
+# Cell Cycle Classification
 
 ```
 library(ccAFv2)
