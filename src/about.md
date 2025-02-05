@@ -11,13 +11,12 @@ The ccAFv2 classifier builds on the foundation established by its predecessor (c
 ![F2.large]({{ site.baseurl }}/images/F2.large.jpg)
 
 The core algorithm of the ccAFv2 is a fully connected artificial neural network (ANN) implemented using the Keras API (v2.12.0) that employs TensorFlow (v2.12.0) to construct ANNs. It takes the expression levels of 861 highly variable genes as input and classifies cells into seven distinct cell cycle states: Neural G0, G1, Late G1, S, S/G2, G2/M, and M/Early G1. The model incorporates dropout layers to prevent overfitting and uses Stochastic Gradient Descent (SGD) for optimization. The result is a powerful, flexible tool for analyzing cell cycle dynamics.
-
-
+![F1.large]({{ site.baseurl }}/images/F1.large.jpg)
 
 ### References 
-O’Connor SA, Feldman HM, Arora S, Hoellerbauer P, Toledo CM, Corrin P, Carter L, Kufeld M, Bolouri H, Basom R, et al. 2021. Neural G0: a quiescent-like state found in neuroepithelial-derived cells and glioma. Mol Syst Biol 17: e9522.
+O’Connor SA, Feldman HM, Arora S, Hoellerbauer P, Toledo CM, Corrin P, Carter L, Kufeld M, Bolouri H, Basom R, et al. 2021. *Neural G0: a quiescent-like state found in neuroepithelial-derived cells and glioma.* Mol Syst Biol 17: e9522.
 
-Hao Y, Hao S, Andersen-Nissen E, Mauck WM, Zheng S, Butler A, Lee MJ, Wilk AJ, Darby C, Zager M, et al. 2021. Integrated analysis of multimodal single-cell data. Cell 184: 3573–3587.e2
+Hao Y, Hao S, Andersen-Nissen E, Mauck WM, Zheng S, Butler A, Lee MJ, Wilk AJ, Darby C, Zager M, et al. 2021. *Integrated analysis of multimodal single-cell data.* Cell 184: 3573–3587.e2
 
 Schwabe D, Formichetti S, Junker JP, Falcke M, Rajewsky N. 2020. The transcriptome dynamics of single cells during the cell cycle. Mol Syst Biol 16: e9946.
 
