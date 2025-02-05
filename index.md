@@ -11,7 +11,7 @@ Key Applications of ccAFv2:
 - Identify cell cycle states in diverse cell types and germ layers.
 - Classify cells, nuclei, and spatial transcriptomics data across species.
 - Regress cell cycle expression patterns to reveal biological signals.
-- Use as an [R package](https://github.com/plaisier-lab/ccafv2_R) (Seurat integration) or [PyPI package](https://pypi.org/project/ccAF/)) (scanpy integration).
+- Use as an [R package](https://github.com/plaisier-lab/ccafv2_R) (Seurat integration) or [PyPI package](https://pypi.org/project/ccAF/) (scanpy integration).
 
 # Citing ccAFv2
 If you include or rely on ccAF2 when publishing research, please adhere to the following citation guide:
