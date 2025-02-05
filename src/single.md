@@ -21,8 +21,8 @@ available for testing purposes
 [here](https://zenodo.org/records/10961633/files/U5_normalized_ensembl.rds?download=1).
 This data has been QC'd and normalized using SCTransform following our
 best practices described above.
-
-```{r}
+#change 
+```r
 devtools::install_github("plaisier-lab/ccafv2_R/ccAFv2")
 library(ccAFv2)
 library(Seurat)
