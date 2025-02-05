@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installation
-nav_order: 7
+nav_order: 3
 ---
 #  Installation
 It is strongly suggested that users utilize the Docker images we provide on DockerHub, as they contain all the dependencies needed to run ccAFv2
