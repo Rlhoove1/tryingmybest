@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Classifying spatial RNA-seq
-nav_order: 4
+nav_order: 9
 
 ---
 # Input for Classification
