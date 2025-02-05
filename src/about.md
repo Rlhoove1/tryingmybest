@@ -24,7 +24,7 @@ Schwabe D, Formichetti S, Junker JP, Falcke M, Rajewsky N. 2020. *The transcript
 Zheng SC, Stein-O’Brien G, Augustin JJ, Slosberg J, Carosso GA, Winer B, Shin G, Bjornsson HT, Goff LA, Hansen KD. 2022. *Universal prediction of cell-cycle position using transfer learning.* Genome Biol 23: 41.
 Scialdone et al. 2015
 
-Nowakowski TJ, Bhaduri A, Pollen AA, Alvarado B, Mostajo-Radji MA, Di Lullo E, Haeussler M, Sandoval-Espinosa C, Liu SJ, Velmeshev D, et al. 2017. *Spatiotemporal gene expression trajectories reveal developmental hierarchies of the human cortex.* Science 358: 1318–1323.
+Liu Z, Lou H, Xie K, Wang H, Chen N, Aparicio OM, Zhang MQ, Jiang R, Chen T. 2017. *Reconstructing cell cycle pseudo time-series via single-cell transcriptome data.* Nat Commun 8: 22.
 
 Hsiao CJ, Tung P, Blischak JD, Burnett JE, Barr KA, Dey KK, Stephens M, Gilad Y. 2020. *Characterizing and inferring quantitative cell cycle phase in single-cell RNA-seq data analysis.* Genome Res 30: 611–621.
 
