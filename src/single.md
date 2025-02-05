@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Classifying single cell or nuclei RNA-seq
-nav_order: 3
+nav_order: 7
 
 ---
 # Input For Classification
