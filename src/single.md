@@ -22,7 +22,7 @@ available for testing purposes
 This data has been QC'd and normalized using SCTransform following our
 best practices described above.
 
-```
+```{r}
 devtools::install_github("plaisier-lab/ccafv2_R/ccAFv2")
 library(ccAFv2)
 library(Seurat)
