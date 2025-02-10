@@ -4,7 +4,7 @@ title: Cell Cycle Regression
 nav_order: 10
 
 ---
-# Cell cycle Regression
+# Cell Cycle Regression
 The cell cycle strongly influences gene expression, so it's common to
 regress out cell cycle effects and use residual variance for further
 analysis. We support this using ccAFv2 marker genes, starting by
