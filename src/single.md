@@ -32,7 +32,6 @@ library(tensorflow)
 ### Load in sample data
 ```r
 seurat_obj = readRDS('U5_normalized_ensembl.rds')
-seurat_obj = PredictCellCycle(seurat_obj)
 ```
 ## Marker Genes
 Examining marker genes is crucial for accuracy. Predictions
