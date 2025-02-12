@@ -38,7 +38,7 @@ PredictCellCycle(
 | gene_id        | what type of gene ID is used, either 'ensembl' or 'symbol', defaults to 'ensembl'                                           |
 | spatial        | whether the data is spatial, defaults to FALSE                                                                              |
 
-[Example Use](https://rlhoove1.github.io/tryingmybest/src/single.html)
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/single.html#marker-genes)
 
 ## ThresholdPlot
 
@@ -98,7 +98,7 @@ PrepareForCellCycleRegression(
 | species    | from which species did the samples originate, either 'human' or 'mouse', default is 'human'           |
 | gene_id    | what type of gene ID is used, either 'ensembl' or 'symbol', defaults to 'ensembl'                     |
 
-[Example Use](https://rlhoove1.github.io/tryingmybest/src/regress.html)
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/regress.html#cell-cycle-regression)
 
 ## DimPlot.ccAFv2
 
@@ -114,7 +114,7 @@ DimPlot.ccAFv2(seurat_obj, ...)
 | seurat_obj | a seurat object must be supplied to classify, no default                                             |
 | ...        | This function supports all [**DimPlot**](https://satijalab.org/seurat/reference/dimplot) parameters. |
 
-[Example Use](https://rlhoove1.github.io/tryingmybest/src/single.html)
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/single.html#plotting-cell-cycle-states)
 
 ## SpatialDimPlot.ccAFv2
 
@@ -129,4 +129,4 @@ SpatialDimPlot.ccAFv2(seurat_obj, ...)
 | seurat_obj | a seurat object must be supplied to classify, no default                                                                                         |
 | ...        | This function supports all [**SpatialDimPlot**](https://satijalab.org/seurat/reference/spatialplot) parameters except **group.by** and **cols**. |
 
-[Example Use](https://rlhoove1.github.io/tryingmybest/src/spatial.html)
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/spatial.html#plotting-cell-cycle-states-onto-images)
