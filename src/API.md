@@ -36,7 +36,7 @@ PredictCellCycle(
 | species        | from which species did the samples originate, either 'human' or 'mouse', default is 'human'                                 |
 | gene_id        | what type of gene ID is used, either 'ensembl' or 'symbol', defaults to 'ensembl'                                           |
 | spatial        | whether the data is spatial, defaults to FALSE                                                                              |
-
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/single.html)
 ## ThresholdPlot
 
 This function plots the distribution of cell cycle predictions for a
@@ -46,6 +46,12 @@ state colors.
 ```         
 ThresholdPlot(seurat_obj, ...)
 ```
+## Arguments
+
+| Arguments      | Description                                                                                                                 |
+|------------------------------------|------------------------------------|
+| seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/Choosing_Threshold.html)
 
 ## AdjustCellCycleThreshold
 
@@ -61,6 +67,7 @@ AdjustCellCycleThreshold(seurat_obj, threshold = 0.5, include_g0 = FALSE)
 | seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
 | threshold      | the value used to threshold the likelihoods, default is 0.5                                                                 |
 | include_g0     | whether to provide Neural G0 calls, or collapse G1 and Neural G0 into G0/G1 (FALSE collapses, TRUE provides Neural G0 calls |
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/Choosing_Threshold.html)
 
 ## PrepareForCellCycleRegression
 
@@ -80,6 +87,7 @@ PrepareForCellCycleRegression(
 | assay          | which seurat_obj assay to use for classification, helpful if data is pre-normalized, default is 'SCT'                       |
 | species        | from which species did the samples originate, either 'human' or 'mouse', default is 'human'                                 |
 | gene_id        | what type of gene ID is used, either 'ensembl' or 'symbol', defaults to 'ensembl'                                           |
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/regress.html)
 
 ## DimPlot.ccAFv2
 
@@ -94,6 +102,8 @@ DimPlot.ccAFv2(seurat_obj, ...)
 | seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
 | ...            | This function supports all [**DimPlot**](https://satijalab.org/seurat/reference/dimplot) parameters.                        |
 
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/single.html)
+
 ## SpatialDimPlot.ccAFv2
 
 This function plots the cell cycle onto a DimPlot for spatial data.
@@ -105,4 +115,5 @@ SpatialDimPlot.ccAFv2(seurat_obj, ...)
 |------------------------------------|------------------------------------|
 | seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
 | ...            | This function supports all [**SpatialDimPlot**](https://satijalab.org/seurat/reference/spatialplot) parameters except **group.by** and **cols**. |
+[Example Use](https://rlhoove1.github.io/tryingmybest/src/spatial.html)
 
