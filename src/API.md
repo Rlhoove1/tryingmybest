@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: API
 nav_order: 4
 ---
@@ -92,7 +92,7 @@ DimPlot.ccAFv2(seurat_obj, ...)
 | Arguments      | Description                                                                                                                 |
 |------------------------------------|------------------------------------|
 | seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
-| ...     | This function supports all [**DimPlot**](https://satijalab.org/seurat/reference/dimplot) parameters.                                                                   |
+| ...            | This function supports all [**DimPlot**](https://satijalab.org/seurat/reference/dimplot) parameters.                        |
 
 ## SpatialDimPlot.ccAFv2
 
@@ -104,5 +104,5 @@ SpatialDimPlot.ccAFv2(seurat_obj, ...)
 | Arguments      | Description                                                                                                                 |
 |------------------------------------|------------------------------------|
 | seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
-| ...     | This function supports all [**SpatialDimPlot**](https://satijalab.org/seurat/reference/spatialplot) parameters except **group.by** and **cols**.                                                                   |
+| ...            | This function supports all [**SpatialDimPlot**](https://satijalab.org/seurat/reference/spatialplot) parameters except **group.by** and **cols**. |
 
