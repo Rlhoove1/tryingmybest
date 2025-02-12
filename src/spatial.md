@@ -51,4 +51,4 @@ colorized using the cell cycle states.
 ![ccAFv2_SpatialDimPlot_slice1]({{ site.baseurl }}/images/ccAFv2_SpatialDimPlot_slice1.png)
 
 ## References 
-Zeng B, Liu Z, Lu Y, Zhong S, Qin S, Huang L, Zeng Y, Li Z, Dong H, Shi Y, et al. 2023. ***The single-cell and spatial transcriptional landscape of human gastrulation and early brain development.*** Cell Stem Cell 30: 851–866.e7. [PubMed](https://pubmed.ncbi.nlm.nih.gov/37192616/) 
+Zeng B, Liu Z, Lu Y, Zhong S, Qin S, Huang L, Zeng Y, Li Z, Dong H, Shi Y, et al. 2023. *The single-cell and spatial transcriptional landscape of human gastrulation and early brain development.* Cell Stem Cell 30: 851–866.e7. [PubMed](https://pubmed.ncbi.nlm.nih.gov/37192616/) 
