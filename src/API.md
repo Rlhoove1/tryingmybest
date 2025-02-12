@@ -56,6 +56,11 @@ increasing threshold values have on the number of 'Unknown' cell calls.
 ```         
 AdjustCellCycleThreshold(seurat_obj, threshold = 0.5, include_g0 = FALSE)
 ```
+| Arguments      | Description                                                                                                                 |
+|------------------------------------|------------------------------------|
+| seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
+| threshold      | the value used to threshold the likelihoods, default is 0.5                                                                 |
+| include_g0     | whether to provide Neural G0 calls, or collapse G1 and Neural G0 into G0/G1 (FALSE collapses, TRUE provides Neural G0 calls |
 
 ## PrepareForCellCycleRegression
 
@@ -69,6 +74,12 @@ PrepareForCellCycleRegression(
   gene_id = "ensembl"
 )
 ```
+| Arguments      | Description                                                                                                                 |
+|------------------------------------|------------------------------------|
+| seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
+| assay          | which seurat_obj assay to use for classification, helpful if data is pre-normalized, default is 'SCT'                       |
+| species        | from which species did the samples originate, either 'human' or 'mouse', default is 'human'                                 |
+| gene_id        | what type of gene ID is used, either 'ensembl' or 'symbol', defaults to 'ensembl'                                           |
 
 ## DimPlot.ccAFv2
 
@@ -78,6 +89,9 @@ nuclei data.
 ```         
 DimPlot.ccAFv2(seurat_obj, ...)
 ```
+| Arguments      | Description                                                                                                                 |
+|------------------------------------|------------------------------------|
+| seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
 
 ## SpatialDimPlot.ccAFv2
 
@@ -86,3 +100,7 @@ This function plots the cell cycle onto a DimPlot for spatial data.
 ```         
 SpatialDimPlot.ccAFv2(seurat_obj, ...)
 ```
+| Arguments      | Description                                                                                                                 |
+|------------------------------------|------------------------------------|
+| seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
+
