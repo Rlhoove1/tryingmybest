@@ -26,7 +26,6 @@ R dependencies:
 
 Seurat 4.X version *Link to DockerHub image: [cplaisier/ccafv2_seurat4](https://hub.docker.com/r/cplaisier/ccafv2_seurat4)*
 ```
-#Command to pull the image down:
 docker pull cplaisier/ccafv2_seurat4
 ```
 Note that the should be replaced with the path to your files that you want to be mounted onto the docker instance. The files can then be found in /files on the instance and locally on your computer in the path specified.
@@ -36,7 +35,6 @@ docker run -it -v '<replace with the location for your files>:/files' cplaisier/
 ```
 Seurat 5.X version *Link to DockerHub image: [cplaisier/ccafv2_seurat4](https://hub.docker.com/r/cplaisier/ccafv2_seurat5)*
 ```
-#Command to pull the image down:
 docker pull cplaisier/ccafv2_seurat5
 ```
 Command to run the docker image. Note that the should be replaced with the path to your files that you want to be mounted onto the docker instance. The files can then be found in /files on the instance and locally on your computer in the path specified.
