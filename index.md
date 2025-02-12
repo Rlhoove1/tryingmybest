@@ -3,20 +3,20 @@ title: Main
 nav_order: 1
 layout: home
 ---
-# CcAFv2
+# ccAFv2
 
-**CcAFv2** is a high-resolution classifier for cell cycle state identification in single-cell RNA-seq (scRNA-seq) data. It was trained on human neural stem cells and classifies six distinct cell cycle states (G1, Late G1, S, S/G2, G2/M, and M/Early G1) along with a Neural G0 state (G0). CcAFv2 incorporates a tunable parameter to refine classification certainty and outperforms existing methods while supporting additional cell cycle states.
+**ccAFv2** is a high-resolution classifier for cell cycle state identification in single-cell RNA-seq (scRNA-seq) data. It was trained on human neural stem cells and classifies six distinct cell cycle states (G1, Late G1, S, S/G2, G2/M, and M/Early G1) along with a Neural G0 state (G0). ccAFv2 incorporates a tunable parameter to refine classification certainty and outperforms existing methods while supporting additional cell cycle states.
 
-Key Applications of CcAFv2:
+Key Applications of ccAFv2:
 - Identify cell cycle states in diverse cell types and germ layers.
 - Classify cells, nuclei, and spatial transcriptomics data across species.
 - Regress cell cycle expression patterns to reveal biological signals.
 - Use as an [R package](https://github.com/plaisier-lab/ccafv2_R) (Seurat integration) or [PyPI package](https://pypi.org/project/ccAF/) (scanpy integration).
 
-# Citing CcAFv2
-If you include or rely on CcAF2 when publishing research, please adhere to the following citation guide:
+# Citing ccAFv2
+If you include or rely on ccAF2 when publishing research, please adhere to the following citation guide:
 
-**Citation for CcAFv2 (version 2):**
+**Citation for ccAFv2 (version 2):**
 
 *Classifying cell cycle states and a quiescent-like G0 state using single-cell transcriptomics.* Samantha A. O‘Connor, Leonor Garcia, Rori Hoover, Anoop P. Patel, Benjamin B. Bartelle, Jean-Philippe Hugnot, Patrick J. Paddison, Christopher L. Plaisier. bioRxiv [Preprint]. 2024 Apr 20:2024.04.16.589816. doi: 10.1101/2024.04.16.589816. PMID: 38659838
 
