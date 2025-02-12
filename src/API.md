@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: API
 nav_order: 4
 ---
