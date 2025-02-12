@@ -5,7 +5,7 @@ nav_order: 11
 
 ---
 
-# Choosing threshold
+# Choosing Threshold
 
 The ccAFv2 classifier assigns a likelihood score to each cell cycle
 state, representing the confidence of the classification. To ensure
@@ -23,11 +23,10 @@ by Zeng et al., 2023.
 
 ### Load packages
 
-```{r}
+```r
 library(ccAFv2)
 library(Seurat)
 library(reticulate)
-reticulate::use_virtualenv('retic')
 library(tensorflow)
 ```
 
@@ -36,7 +35,7 @@ The U5 human neural stem cell (hNSC) dataset used to train the ccAFv2 is availab
 
 We then apply the PredictCellCycle() function to classify cells into their respective cell cycle states using ccAFv2. 
 
-```{r}
+```r
 seurat_obj = readRDS('U5_normalized_ensembl.rds')
 seurat_obj = PredictCellCycle(seurat_obj)
 ```
@@ -44,13 +43,14 @@ seurat_obj = PredictCellCycle(seurat_obj)
 #  Selecting a Likelihood Threshold
 To determine how varying likelihood thresholds affect classification, use ThresholdPlot(), which plots the relationship between likelihood thresholds, percentage of classified cells. This helps determine the optimal threshold for balancing classification confidence and data retention.
 
-```{r}
+```r
 ThresholdPlot(seurat_obj)
 ```
+![ThresholdPlot_1]({{ site.baseurl }}/images/ThresholdPlot_1.jpeg)
 
-Based on our analysis, we set the likelihood threshold to 0.5. This ensures that only cells with a classification confidence of 50% or higher retain their predicted state, while others are labeled as "Unknown."
-```{r}
+Based on our analysis, we set the likelihood threshold to 0.5. This ensures that only cells with a classification confidence of 50% or higher retain their predicted state, while others are labeled as "Unknown." 
+```r
 AdjustCellCycleThreshold(seurat_obj, threshold = 0.5)
 ```
-![ThresholdPlot_1]({{ site.baseurl }}/images/ThresholdPlot_1.jpeg)
+
 
