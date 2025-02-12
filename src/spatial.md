@@ -4,7 +4,7 @@ title: Classifying Spatial RNA-seq
 nav_order: 9
 
 ---
-# Input for Classification
+# Input For Classification
 
 The ccAFv2 classifier requires a thoroughly quality-controlled Seurat
 object, with an example QC pipeline available
