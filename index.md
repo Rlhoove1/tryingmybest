@@ -5,7 +5,7 @@ layout: home
 ---
 # CcAFv2
 
-**CcAFv2** is a high-resolution classifier for cell cycle state identification in single-cell RNA-seq (scRNA-seq) data. It was trained on human neural stem cells and classifies six distinct cell cycle states (G1, Late G1, S, S/G2, G2/M, and M/Early G1) along with a Neural G0 state (G0). ccAFv2 incorporates a tunable parameter to refine classification certainty and outperforms existing methods while supporting additional cell cycle states.
+**CcAFv2** is a high-resolution classifier for cell cycle state identification in single-cell RNA-seq (scRNA-seq) data. It was trained on human neural stem cells and classifies six distinct cell cycle states (G1, Late G1, S, S/G2, G2/M, and M/Early G1) along with a Neural G0 state (G0). CcAFv2 incorporates a tunable parameter to refine classification certainty and outperforms existing methods while supporting additional cell cycle states.
 
 Key Applications of CcAFv2:
 - Identify cell cycle states in diverse cell types and germ layers.
