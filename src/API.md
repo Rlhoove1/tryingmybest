@@ -25,7 +25,6 @@ PredictCellCycle(
   spatial = FALSE)
 ```
 
-## Arguments
 
 | Arguments      | Description                                                                                                                 |
 |------------------------------------|------------------------------------|
@@ -50,7 +49,6 @@ state colors.
 ThresholdPlot(seurat_obj, ...)
 ```
 
-## Arguments
 
 | Argument   | Description                                               |
 |------------|-----------------------------------------------------------|
