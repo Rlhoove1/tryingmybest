@@ -48,11 +48,12 @@ state colors.
 ```         
 ThresholdPlot(seurat_obj, ...)
 ```
-## Arguments
+## Arguments  
 
-| Arguments      | Description                                                                                                                 |
-|------------------------------------|------------------------------------|
-| seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
+| Argument       | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| seurat_obj    | A Seurat object must be supplied to classify, no default.                  |
+
 
 [Example Use](https://rlhoove1.github.io/tryingmybest/src/Choosing_Threshold.html)
 
@@ -65,6 +66,7 @@ increasing threshold values have on the number of 'Unknown' cell calls.
 ```         
 AdjustCellCycleThreshold(seurat_obj, threshold = 0.5, include_g0 = FALSE)
 ```
+
 | Arguments      | Description                                                                                                                 |
 |------------------------------------|------------------------------------|
 | seurat_obj     | a seurat object must be supplied to classify, no default                                                                    |
