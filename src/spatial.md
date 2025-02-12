@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Classifying spatial RNA-seq
+title: Classifying Spatial RNA-seq
 nav_order: 9
 
 ---
@@ -49,3 +49,6 @@ SpatialDimPlot for slice 1 of a human fetus at 4 weeks post-conception
 colorized using the cell cycle states.
 
 ![ccAFv2_SpatialDimPlot_slice1]({{ site.baseurl }}/images/ccAFv2_SpatialDimPlot_slice1.png)
+
+## References 
+Zeng B, Liu Z, Lu Y, Zhong S, Qin S, Huang L, Zeng Y, Li Z, Dong H, Shi Y, et al. 2023. **The single-cell and spatial transcriptional landscape of human gastrulation and early brain development.** Cell Stem Cell 30: 851–866.e7. (PubMed)[https://pubmed.ncbi.nlm.nih.gov/37192616/] 
